@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.307" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="US_001 Saturn.de Login Testing" name="TC01 Positive Login Test" time="0.044">
+<failure/>
+<system-out><![CDATA[
+Given user go to "webURL" website...........................................undefined
+Then user click sign in button..............................................skipped
+And user wait 2 seconds.....................................................skipped
+And user click first login button...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_001 Saturn.de Login Testing" name="Information Entry - Example #1.1" time="0.003">
+<failure/>
+<system-out><![CDATA[
+And user logs in with the given information "maryjane@gmail.com","test12300".undefined
+And user wait 2 seconds.....................................................skipped
+And user click second login button..........................................skipped
+And user verifies successful login..........................................skipped
+And close driver............................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
